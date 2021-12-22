@@ -1,0 +1,50 @@
+html body#content {
+  float: right;
+  width: 100%;
+  background-color: beige; 
+}
+
+#headerRight{
+background-color:#505050;
+}
+.def {
+width: 60%;
+padding: 0.2em;
+font-size: 1.2em;
+margin-left: 3em;
+color: white;
+margin-right: 8em;
+}
+.def:hover {
+color: #FF69B4;
+}
+table#content tr {
+width:1000px;
+height: 50px;
+padding: 0.5em;
+text-align: center;
+border-collapse: collapse; 
+border-radius: 10px; 
+}
+table#content td {
+width: 250px;
+height: 50px;
+padding: 0.5em;
+border-collapse: collapse; 
+border-radius: 10px; 
+}
+.creativeImg {
+width: 250px;
+}
+table#content p {
+font-size: 1.3em;
+}
+table#content ins {
+color: darkred;
+text-decoration: none;
+}
+div#content p1, #igImg, #faceImg {
+  height: 30px;
+  margin-right: 1em;
+  float: right;
+}

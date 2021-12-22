@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/sofa.jpeg");   
+  background-size: 100% 100%;   
+  background-repeat: none;
+}
+nav {
+  float: left;
+  width: 25%;
+  height: 100%;
+  padding: 1em;
+  border: 1px solid none;
+}
+nav ul {
+  position: fixed;
+  height: 100%;
+  margin: 0;
+  padding: 2em 0;
+}
+nav ul li {
+  list-style: none;
+  margin-top: 1em;
+}
+nav li a {
+  padding: 1em;
+  line-height: 2em;
+  color: #a34100;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+nav li a:hover {
+  color: #853500;
+  font-size: 1.5em;
+}
+div#content {
+  overflow: auto;
+  float: left;
+  width: 75%;
+  height: 100%;
+  padding: 3em;
+  border: 1px solid none;
+  color: ;
+}
+div#content h2 {
+  text-align: left;
+  font-size: 3.4em;
+  color: #a34100;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #B8B8B8, 0 0 70px #B0B0B0, 0 0 80px #A9A9A9, 0 0 100px 	#A8A8A8, 0 0 150px #A0A0A0;
+}
+div#content h3 {
+  text-align: right;
+  color: #a34100;
+  font-size: 1.5em;
+  padding: 0em;
+}
+div#content p1, #igImg, #faceImg {
+  height: 30px;
+  margin-right: 1em;
+  float: right;
+}
+

@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+form {
+  padding: 1em 5em 0;
+}
+form fieldset {
+  font-size: 1.4em;
+  border: none;
+}
+form fieldset legend, p {
+  color: #a34100;
+}
+fieldset input[type="submit"] {
+  background: linear-gradient(#f5c71a, #cfb53b);
+  color: beige;
+  padding: 0.5em 1em;
+  font-size: 0.9em;
+  border: 1px solid none;
+}
+div#content a {
+  color: beige;
+  font-size: 1.7em;
+  float: left;
+}
